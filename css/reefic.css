@@ -1,3 +1,5 @@
+        
+        
 
 
 /* @import 'autoptimize.css'; */
@@ -22,14 +24,24 @@ header.slideInDown .logo {
    
 }
 
+header.slideInDown #fh5co-header #navbar li a  {
+    color: #3b3d49;
+}
 
+
+.btn-whitepaper a:hover:after {
+    content: url(../images/general/download-icon-white.png);
+}
 .btn-whitepaper a:after {
-    content: url(../images/general/download-icon.png);
+    content: url(../images/general/download-icon-white.png);
     width: 20px;
     height: 20px;
     position: absolute;
     right: 10px;
     top: 8px;
+}
+header.slideInDown .btn-whitepaper a {
+    color: #7dc1c2;
 }
 .btn-whitepaper a {
     padding: 10px 40px 10px 10px !important;
@@ -45,7 +57,7 @@ header.slideInDown .logo {
     border: 2px solid #fff;
     opacity: 1;
     border-radius: 5px;
-    color: #fff !important;
+    color: #fff;
 }
 
 .btn-whitepaper a:hover, .btn-whitepaper a:active{
@@ -54,7 +66,7 @@ header.slideInDown .logo {
 }
 
 #fh5co-header #navbar li a {
-    color: #fff !important;
+    color: #fff;
 }
 
 #fh5co-header #navbar li.active a {
@@ -75,9 +87,6 @@ header.slideInDown .logo {
 #navbar li.btn-whitepaper {
     padding-top: 8px;
 }
-
-
-
 
 .btn {
     min-width: 180px;
@@ -119,17 +128,30 @@ header.slideInDown .logo {
 #fh5co-home .text-inner h1 {
     font-size:1.9em;
     font-weight:600;
+    margin-bottom:1em;
+    color:rgba(255, 255, 255, 0.8);
 }
 #fh5co-home .text-inner h2 {
     font-size:1.6em;
     font-weight:600;
     margin-bottom:1em;
+    color:rgba(255, 255, 255, 0.8);
 }
 
 #fh5co-home .text-inner p {
-    font-size:0.8em;
+    font-size:0.9em;
     font-weight:300;
     line-height: 1em;
+    margin-bottom: 2em;
+}
+
+
+div.et_pb_section.et_pb_section_1 {
+    background-image: url(https://www.reefic.io/wp-content/uploads/2018/10/teal-bg-min.png)!important;
+}
+#colour-variations img {
+    min-width: 100%;
+    max-width: 100%;
 }
 
 ul#clock{
@@ -139,15 +161,16 @@ ul#clock{
 
 ul#clock > li {
     display: inline-block;
-    padding: 0 10px 0 10px;
+    padding: 0 20px 0 20px;
 }
 
 ul#clock > li h2.clickNum {
     display: block;
     text-align: center;
     width: 100%;
+    font-size: 2.5em;
     font-weight: 100;
-    margin-bottom:0em;
+    margin-bottom:0.2em;
 }
 
 
@@ -157,7 +180,7 @@ ul#clock > li .clock-text {
     text-transform: uppercase;
     text-align: center;
     font-weight: 100;
-    font-size: 0.4em;
+    font-size: 0.6em;
     top: 50%;
 }
 
@@ -196,3 +219,4 @@ ul#clock > li .clock-text {
             }
             
         }
+

@@ -28,6 +28,7 @@
 	<link rel="stylesheet" media="screen" href="animate/css/style.css">
 	
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,300,600,400italic,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -45,8 +46,103 @@
 
 	<link rel="stylesheet" href="css/reefic.css">
 
+	<style>
+	/* For demo purpose only */
+	
+	/* For Demo Purposes Only ( You can delete this anytime :-) */
+	#colour-variations {
+    position: fixed;
+    top: calc(10% + 150px);
+    right: 0;
+    padding: 10px;
+    background: rgba(155,198,79,.8);
+    border-radius: 5px;
+    z-index: 999;
+		text-align: center;
+		width: 55px;
+		border-radius: 0.2em 0 0 0.2em;
+
+	}
+	#colour-variations.sleep {
+		margin-left: -140px;
+	}
+	#colour-variations h3 {
+		text-align: center;;
+		font-size: 11px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: #777;
+		margin: 0 0 10px 0;
+		padding: 0;;
+	}
+	#colour-variations ul,
+	#colour-variations ul li {
+		padding: 0;
+		margin: 0;
+	}
+	#colour-variations li {
+		list-style: none;
+		display: block;
+		margin-bottom: 5px!important;
+		float: left;
+		width: 100%;
+	}
+	#colour-variations li a {
+		width: 100%;
+		position: relative;
+		display: block;
+		overflow: hidden;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		-ms-border-radius: 4px;
+		border-radius: 4px;
+		-webkit-transition: 0.4s;
+		-o-transition: 0.4s;
+		transition: 0.4s;
+	}
+	#colour-variations li a:hover {
+	  	opacity: .9;
+	}
+	#colour-variations li a > span {
+		width: 33.33%;
+		height: 20px;
+		float: left;
+		display: -moz-inline-stack;
+		display: inline-block;
+		zoom: 1;
+		*display: inline;
+	}
 	
 
+	.option-toggle {
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin-top: 5px;
+		margin-right: -30px;
+		width: 30px;
+		height: 30px;
+		background: #f64662;
+		text-align: center;
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+		color: #fff;
+		cursor: pointer;
+		-webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+	}
+	.option-toggle i {
+		top: 2px;
+		position: relative;
+	}
+	.option-toggle:hover, .option-toggle:focus, .option-toggle:active {
+		color:  #fff;
+		text-decoration: none;
+		outline: none;
+	}
+	</style>
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -75,7 +171,7 @@
 								<li class="btn-whitepaper"><a href="#" data-nav-section="services"><span>Whitepaper</span></a></li>
 								<li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
 								<li><a href="#" data-nav-section="about"><span>Sign in</span></a></li>
-								<li><a href="#" data-nav-section="abouts"><span>EN</span></a></li>
+								<li  class="lang-switch"><a href="#" data-nav-section="abouts"><span>EN <i class="fa fa-icon fa-chevron-down"></i></span></a></li>
 		          </ul>
 		        </div>
 			    </nav>
@@ -96,7 +192,7 @@
 							<h1 class="to-animate">OPEN FOR TOKEN SALE IN</h1>
 							<ul id="clock" class="to-animate"></ul>
 							<div class="buttons to-animate">
-									<a href="#" class="btn btn-green">Whitepaper</a>
+									<a href="#" class="btn btn-green">Whitelist</a>
 									<a href="#" class="btn btn-green">Bounty</a>
 							</div>
 						</div>
@@ -110,7 +206,7 @@
 	<section id="fh5co-intro">
 		<div class="container">
 			<div class="row row-bottom-padded-lg">
-				<div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);">
+				<div class="fh5co-block to-animate" style="background-image: url(images/teal-bg.png);">
 					<div class="overlay-darker"></div>
 					<div class="overlay"></div>
 					<div class="fh5co-text">
@@ -538,6 +634,19 @@
 			</div>
 		</div>
 	</footer>
+
+	
+	<!-- For demo purposes Only ( You may delete this anytime :-) -->
+	<div id="colour-variations">
+	
+		<ul>
+			<li><a href="#" target="_blank"><img src="images/general/twitter-black.png" alt="" title=""></a></li>
+			<li><a href="#" target="_blank"><img src="images/general/mail-black.png" alt="" title=""></a></li>
+			<li><a href="#" target="_blank"><img src="images/general/medium-black.png" alt="" title=""></a></li>
+			<li><a href="#" target="_blank"><img src="images/general/github-black.png" alt="" title=""></a></li>
+			</ul>
+	</div>
+	<!-- End demo purposes only -->
 	
 	<!-- Main header animation start -->
 	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
