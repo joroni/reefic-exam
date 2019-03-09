@@ -23,12 +23,60 @@ header.slideInDown .logo {
 }
 
 
-#fh5co-home .text-inner {
-    display: table-cell;
-    vertical-align: top;
-    padding-top: 20%;
-    text-align: center;
+.btn-whitepaper a:after {
+    content: url(../images/general/download-icon.png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 8px;
 }
+.btn-whitepaper a {
+    padding: 10px 40px 10px 10px !important;
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    border: 2px solid #fff;
+    opacity: 1;
+    border-radius: 5px;
+    color: #fff !important;
+}
+
+.btn-whitepaper a:hover, .btn-whitepaper a:active{
+    background: #4aafae !important;
+    color: #fff !important;
+}
+
+#fh5co-header #navbar li a {
+    color: #fff !important;
+}
+
+#fh5co-header #navbar li.active a {
+    color: #7dc1c2 !important;
+}
+
+#fh5co-header #navbar li a:hover, #fh5co-header #navbar li a:active {
+    color: #7dc1c2 !important;
+}
+
+#fh5co-header #navbar li a span:before{
+    display: none;
+}
+
+#fh5co-header #navbar li.btn-whitepaper  a:hover {
+    color: #fff !important;
+}
+#navbar li.btn-whitepaper {
+    padding-top: 8px;
+}
+
+
 
 
 .btn {
@@ -51,6 +99,7 @@ header.slideInDown .logo {
     background: #9bc64f;
     color: #5d1a62 !important;
     border: 1px solid #9bc64f !important;
+    margin-bottom: 20px;
 }
 
 .btn-green:hover, .btn-green:active {
@@ -59,9 +108,33 @@ header.slideInDown .logo {
     border: 1px solid #9bc64f !important;
 }
 
-#fh5co-home .text-inner h2 {
-    font-size:1.8em;
+
+#fh5co-home .text-inner {
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 20%;
+    text-align: center;
+}
+
+#fh5co-home .text-inner h1 {
+    font-size:1.9em;
     font-weight:600;
+}
+#fh5co-home .text-inner h2 {
+    font-size:1.6em;
+    font-weight:600;
+    margin-bottom:1em;
+}
+
+#fh5co-home .text-inner p {
+    font-size:0.8em;
+    font-weight:300;
+    line-height: 1em;
+}
+
+ul#clock{
+    padding-left:0px;
+    margin-bottom: 40px;
 }
 
 ul#clock > li {
@@ -73,7 +146,8 @@ ul#clock > li h2.clickNum {
     display: block;
     text-align: center;
     width: 100%;
-    font-weight: 300;
+    font-weight: 100;
+    margin-bottom:0em;
 }
 
 
@@ -82,7 +156,8 @@ ul#clock > li .clock-text {
     line-height: 1;
     text-transform: uppercase;
     text-align: center;
-    font-size: 0.5em;
+    font-weight: 100;
+    font-size: 0.4em;
     top: 50%;
 }
 
