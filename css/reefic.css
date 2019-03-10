@@ -1,8 +1,7 @@
         
         
 
-
-/* @import 'autoptimize.css'; */
+ /* @import 'owl.css'; */ 
 header .navbar-brand .logo {
     background: url(../images/general/logo-white.png);
     width:135px;
@@ -23,11 +22,20 @@ header.slideInDown .logo {
     margin-top: -10px;
    
 }
-
+#fh5co-intro{
+   background-image: url(../images/general/teal-bg.png);
+}
 header.slideInDown #fh5co-header #navbar li a  {
     color: #3b3d49;
 }
 
+header.slideInDown .btn-whitepaper a:after {
+    content: url(../images/general/download-icon.png);
+}
+
+header.slideInDown .btn-whitepaper a:hover:after {
+    content: url(../images/general/download-icon-white.png);
+}
 
 .btn-whitepaper a:hover:after {
     content: url(../images/general/download-icon-white.png);
@@ -118,10 +126,28 @@ header.slideInDown .btn-whitepaper a {
 }
 
 
+.btn-purple {
+    background: #5d1a62;
+    color: #fff;
+    border: 1px solid #5d1a62 !important;
+}
+
+.btn-purple:hover, .btn-purple:active {
+    background: #9bc64f !important;
+    color: #5d1a62 !important;
+    border: 1px solid #5d1a62 !important;
+}
+
+
+
+.btn-img img, .footer-social-div .social img {
+    width: 45px;
+}
+
 #fh5co-home .text-inner {
     display: table-cell;
     vertical-align: top;
-    padding-top: 20%;
+    padding-top: 15%;
     text-align: center;
 }
 
@@ -144,10 +170,59 @@ header.slideInDown .btn-whitepaper a {
     line-height: 1em;
     margin-bottom: 2em;
 }
+#fh5co-intro {
+    position: relative;
+    bottom: 0;
+    margin-top: 0px;
+    z-index: 10;
+    padding-bottom: 7em;
+    background-repeat: no-repeat;
+    background-image: url(../images/general/teal-bg.png);
+    background-position: center -159px;   
+}
+
+.social.social-circle a {
+    background: none;
+}
+.watch-video, .social-circle {
+        text-align: center;
+        margin-bottom: 30px;
+}
+.section-heading {
+    font-family: 'Montserrat',sans-serif;
+    color: #5a1f5f;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
 
 
-div.et_pb_section.et_pb_section_1 {
-    background-image: url(https://www.reefic.io/wp-content/uploads/2018/10/teal-bg-min.png)!important;
+.slant{
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    background: 0 0;
+    margin-top: -9%;
+    z-index: 9;
+    padding-top: 5%;
+    height:150px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+}
+
+
+#fh5co-video {
+    background: 0 0;
+    margin-top: -9%;
+    z-index: 9;
+    padding-top: 5%;
 }
 #colour-variations img {
     min-width: 100%;
@@ -185,6 +260,45 @@ ul#clock > li .clock-text {
 }
 
 
+
+
+.latest-blog-posts {
+    position: relative;
+}
+  .latest-blog-posts .container-fluid {
+    padding: 60px;
+    position: relative;
+    max-width: 1230px;
+  }
+  section .thumbnail {
+    margin: 0 15px;
+  }
+  .latest-blog-posts .customNavigation {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    top: calc(50% - 37px);
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  .latest-blog-posts .customNavigation > span {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    top: 50%;
+    position: absolute;
+  }
+  .latest-blog-posts .pager-left {
+    left: calc(0% + 15px);
+  }
+  .latest-blog-posts .pager-right {
+    right: calc(0% + 15px);
+  }
+  .latest-blog-posts .next, .latest-blog-posts .prev {
+    font-size: 28px;
+    color: #ccc;
+  }
+  
+
 .bullet-point { float: left; }
 
 .clear-float { clear: both; }
@@ -219,4 +333,8 @@ ul#clock > li .clock-text {
             }
             
         }
+
+
+
+
 
