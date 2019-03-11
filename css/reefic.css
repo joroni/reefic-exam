@@ -107,7 +107,7 @@ header.slideInDown .btn-whitepaper a {
     line-height: 14px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight:600;
     text-align: center;
     display: inline-block;
     -webkit-transition: all .2s;
@@ -117,30 +117,30 @@ header.slideInDown .btn-whitepaper a {
 
 .btn-green {
     background: #9bc64f;
-    color: #5d1a62 !important;
+    color: #8b3892 !important;
     border: 1px solid #9bc64f !important;
     margin-bottom: 20px;
 }
 
 .btn-green:hover,
 .btn-green:active {
-    background: #5d1a62 !important;
+    background: #8b3892 !important;
     color: #9bc64f !important;
     border: 1px solid #9bc64f !important;
 }
 
 .btn-purple {
-    background: #5d1a62;
+    background: #8b3892;
     color: #fff;
-    border: 1px solid #5d1a62 !important;
+    border: 1px solid #8b3892 !important;
     margin-bottom: 20px;
 }
 
 .btn-purple:hover,
 .btn-purple:active {
     background: #9bc64f !important;
-    color: #5d1a62 !important;
-    border: 1px solid #5d1a62 !important;
+    color: #8b3892 !important;
+    border: 1px solid #8b3892 !important;
 }
 
 .btn-img img,
@@ -192,8 +192,8 @@ header.slideInDown .btn-whitepaper a {
 .owl-item h4,
 .owl-item h4 * {
     text-transform: capitalize !important;
-    font-family: "Arial", sans-serif;
-    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     color: #555;
 }
 
@@ -219,6 +219,7 @@ header.slideInDown .btn-whitepaper a {
 
 .owl-item p {
     font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
 }
 
 .owl-item strong {
@@ -288,7 +289,7 @@ header.slideInDown .btn-whitepaper a {
 }
 
 
-#
+
 #fh5co-testimonials {
     position: relative;
     bottom: 0;
@@ -299,12 +300,19 @@ header.slideInDown .btn-whitepaper a {
     background-position: center -189px;
 }
 
+
+
 #fh5co-testimonials .section-title{
-    line-height:2em;
+    font-size:1.4em !important;
+    line-height:1.1em;
     text-align:left;
 }
 
 
+.sectionp {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
 
 .press-img {
     z-index:1;
@@ -314,7 +322,7 @@ header.slideInDown .btn-whitepaper a {
 
 
 .fh5co-press-item .date {
-    background: #5d1a62;
+    background: #8b3892;
     color: #fff;
     position: absolute;
     top: 0px;
@@ -330,16 +338,16 @@ header.slideInDown .btn-whitepaper a {
     text-transform: uppercase;
     color: #333;
     font-weight: 600;
-    font-size: 0.8em;
-    line-height: 1.2em;
-    margin-bottom: 0.5em;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 0em;
 }
 
 a.press-more {
-    font-size: 0.8em;
+    font-size: 14px;
     text-transform: uppercase;
-    font-weight: 600;
-    color: #5d1a62 !important;
+    font-weight: 500;
+    color: #8b3892 !important;
     cursor: pointer;
 }
 
@@ -355,10 +363,10 @@ a.press-more {
 
 .section-title {
     font-family: 'Montserrat', sans-serif;
-    color: #5a1f5f;
-    font-size: 22px;
-    line-height: 22px;
-    font-weight: 700;
+    color: #5d1a62;
+    font-size: 1.5em !important;
+    line-height: 1.5px;
+    font-weight: 700 !important;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 30px !important;
@@ -497,7 +505,7 @@ section .thumbnail {
 .latest-blog-posts .customNavigation {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    top: calc(50% - 37px);
+    top: calc(40% - 37px);
     position: absolute;
     width: 100%;
     left: 0;
@@ -511,17 +519,17 @@ section .thumbnail {
 }
 
 .latest-blog-posts .pager-left {
-    left: calc(0% + 15px);
+    left: calc(0% + 50px);
 }
 
 .latest-blog-posts .pager-right {
-    right: calc(0% + 15px);
+    right: calc(0% + 50px);
 }
 
 .latest-blog-posts .next,
 .latest-blog-posts .prev {
     font-size: 28px;
-    color: #ccc;
+    color: #555;
 }
 
 
