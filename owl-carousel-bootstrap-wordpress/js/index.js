@@ -4,8 +4,8 @@ jQuery(document).ready(function($) {
   owl.owlCarousel({
       items : 3, 
       itemsDesktop : [992,3],
-      itemsDesktopSmall : [768,2], 
-      itemsTablet: [480,2], 
+      itemsDesktopSmall : [768,], 
+      itemsTablet: [480,1], 
       itemsMobile : [320,1]
   });
   $(".next").click(function(){ owl.trigger('owl.next'); });
