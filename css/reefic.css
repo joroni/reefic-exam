@@ -202,7 +202,8 @@ header.slideInDown .btn-whitepaper a {
     padding: 20px;
     color: #555;
     font-size: 18px;
-    line-height: 24px;
+    overflow:hidden ;
+     line-height: 24px;
     text-align: center;
     -webkit-box-shadow: 0px 0px 2px 1px rgba(102, 102, 102,.08);
     -moz-box-shadow: 0px 0px 2px 1px rgba(102, 102, 102,.08);
@@ -276,7 +277,7 @@ header.slideInDown .btn-whitepaper a {
 }
 
 #fh5co-works2 {
-  background-color:transparent;
+    background-color:#f1f1f1;
     position: relative;
     bottom: 0;
     margin-top: 0px;
@@ -314,12 +315,20 @@ header.slideInDown .btn-whitepaper a {
     font-size: 16px;
 }
 
+
 .press-img {
     z-index:1;
     margin-bottom: 1em;
     min-width:100%;
 }
-
+.fh5co-press-item {
+    margin-bottom:20px;
+}
+.section-sub-title {
+    color: #8b3892;
+    font-weight: 500;
+    font-size: 16px;
+}
 
 .fh5co-press-item .date {
     background: #8b3892;
@@ -365,7 +374,7 @@ a.press-more {
     font-family: 'Montserrat', sans-serif;
     color: #5d1a62;
     font-size: 1.5em !important;
-    line-height: 1.5px;
+    line-height: 1.5em;
     font-weight: 700 !important;
     text-align: center;
     text-transform: uppercase;
@@ -519,11 +528,11 @@ section .thumbnail {
 }
 
 .latest-blog-posts .pager-left {
-    left: calc(0% + 50px);
+    left: calc(0% + 10px);
 }
 
 .latest-blog-posts .pager-right {
-    right: calc(0% + 50px);
+    right: calc(0% + 10px);
 }
 
 .latest-blog-posts .next,
