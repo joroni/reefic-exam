@@ -271,7 +271,7 @@ header.slideInDown .btn-whitepaper a {
     bottom: 0;
     margin-top: 0px;
     z-index: 10;
-    padding-top: 40px;
+    padding-top: 0px;
     background-repeat: no-repeat;
     background-position: center -189px;
 }
@@ -281,7 +281,7 @@ header.slideInDown .btn-whitepaper a {
     bottom: 0;
     margin-top: 0px;
     z-index: 10;
-    padding-top: 40px;
+    padding-top: 0px;
     padding-bottom: 40px;
     background-repeat: no-repeat;
     background-image: url(../images/home/implementation-roadmap-bg.png);
@@ -294,10 +294,11 @@ header.slideInDown .btn-whitepaper a {
     position: relative;
     bottom: 0;
     margin-top: 0px;
+    margin-bottom: 10%;
     z-index: 10;
     padding-bottom: 0em;
     background-repeat: no-repeat;
-    background-position: center -189px;
+ 
 }
 
 
@@ -305,12 +306,12 @@ header.slideInDown .btn-whitepaper a {
     position: relative;
     bottom: 0;
     margin-top: 0px;
-    z-index: 10;
-    padding-bottom: 0em;
+    z-index: -1;
+    padding-top: 5em;
     background-image: url(../images/home/token-generation-bg-min.png);
     background-repeat: no-repeat;
-    background-size:100%;
-    background-position: center -150px;
+    background-size: cover;
+    background-position: top;
 }
 
 #fh5co-roadmap {
@@ -697,7 +698,10 @@ ul#clock > li .clock-text, ul#clock2 > li .clock-text {
     top: 50%;
 }
 
-
+.testimonial-img {
+    text-align:center;
+    padding-left: 40px;
+}
 #footer {
     background:#ddd;
 }
@@ -867,5 +871,9 @@ div#protocol-updates-button {
     }
     .container {
         width: 90%;
+    }
+
+    .testimonial-img {
+        padding-left: 0px;
     }
 }
